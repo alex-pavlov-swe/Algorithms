@@ -1,7 +1,11 @@
-class Solution:
-  sumX = 1
-  def function1(self, prop1):
-    print(prop1 + self.sumX)
+def test(n):
+    count = 10
+    count += 1
 
-app = Solution()
-app.function1(2)
+    def helper(i):
+
+        print(count)
+    helper(n)
+
+
+test(3)
