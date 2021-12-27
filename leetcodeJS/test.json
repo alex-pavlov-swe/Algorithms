@@ -1,0 +1,151 @@
+{
+    "name": "Alexandr",
+    "type": "construction",
+    "units": "metric",
+    "apple_tv": null,
+    "address_lat": 49.275595,
+    "address_lng": -123.1232915,
+    "address_street": "1110 Hamilton Street",
+    "address_city": "Vancouver",
+    "address_region": "British Columbia",
+    "address_postal": "V6B 2S2",
+    "address_country": "CA",
+    "contact_name": null,
+    "contact_phone": null,
+    "contact_email": null,
+    "timecards_schedule": "Bi-Weekly: every second Sunday, starting 2017-01-01.<br>For example: <ul><li>2021-02-07 - 2021-02-20</li><li>2021-02-21 - 2021-03-06</li><li>2021-03-07 - 2021-03-20</ul>",
+    "timezone": "America/Vancouver",
+    "timezone_offset": -28800,
+    "login_bg": "https://alexandr.sitemax.build/assets/images/default-company-login-bg.jpg",
+    "logo": "https://alexandr.sitemax.build/files/company/lwG03oaavHBr.png",
+    "logo_default": false,
+    "color_primary": "000000",
+    "color_text": "FFFFFF",
+    "greeting_text": "Welcome to SiteMax.",
+    "company_url": "sitemaxsystems.com",
+    "phone_code": "1",
+    "phone_code_country": "Canada",
+    "dropbox_app_key": "2sm2kfaixw9vgw1",
+    "dropbox_access_token": false,
+    "csv_export_title": null,
+    "sage_export": false,
+    "sage_export_title": null,
+    "custom_export": false,
+    "custom_export_title": null,
+    "tool_csv_export_title": null,
+    "tool_custom_export": false,
+    "tool_custom_export_title": null,
+    "allow_checkin_outside_geofence": true,
+    "po_taxes": [],
+    "new_permissions": 1,
+    "new_camera": 0,
+    "form_builder": 1,
+    "messages": 1,
+    "modules": {
+        "scheduler": {},
+        "drawings": {
+            "enabled": true
+        },
+        "rfis": {
+            "enabled": true
+        },
+        "change-orders": {
+            "enabled": false
+        },
+        "qr-workflow": {
+            "enabled": true
+        },
+        "reports": {
+            "company-progress": true,
+            "project-date-progress": true,
+            "project-date-safety": true,
+            "tool-progress": true,
+            "custom-summary-report": null
+        },
+        "purchase_orders": {
+            "purchase_order_phase": true,
+            "types": [
+                {
+                    "id": "rental",
+                    "title": "Rental",
+                    "manual_number": false,
+                    "color": "#7ED320",
+                    "pm_email_default": true
+                },
+                {
+                    "id": "purchase",
+                    "title": "Purchase",
+                    "manual_number": false,
+                    "color": "#F6A623",
+                    "pm_email_default": true
+                },
+                {
+                    "id": "labor",
+                    "title": "Labor",
+                    "manual_number": false,
+                    "color": "#4990E2",
+                    "pm_email_default": true
+                },
+                {
+                    "id": "services",
+                    "title": "Services",
+                    "manual_number": false,
+                    "color": "#9112FF",
+                    "pm_email_default": true
+                }
+            ],
+            "statuses": [
+                {
+                    "id": "open",
+                    "title": "Open"
+                },
+                {
+                    "id": "complete",
+                    "title": "Complete"
+                },
+                {
+                    "id": "processed",
+                    "title": "Processed"
+                },
+                {
+                    "id": "cancelled",
+                    "title": "Cancelled"
+                }
+            ],
+            "required_fields": [],
+            "threshold_limit": null,
+            "initial_number": 1,
+            "initial_number_offset": 4,
+            "custom_initial_number": null,
+            "custom_initial_number_enabled": false
+        }
+    },
+    "dayview_work_progress": null,
+    "dayview_notice_board": 1,
+    "reports_compliance": 0,
+    "analytics": 0,
+    "appointments": 0,
+    "exports": null,
+    "intercom_settings": {
+        "plan": "power",
+        "total_paid_seats": 7,
+        "available_seats": 93,
+        "num_collaborators": 8,
+        "legacy": false,
+        "active_projects": 3
+    },
+    "timecards_settings": {
+        "action_plan": false,
+        "cost_codes_required": false,
+        "tools_required": false,
+        "description_required": false
+    },
+    "plan": "power",
+    "ipad_legacy_view": 1,
+    "firebase_path": "sitemax_dev__alexandr",
+    "mobile_settings": {},
+    "qb_integration": {
+        "integrated": true,
+        "initial": null
+    }
+}
