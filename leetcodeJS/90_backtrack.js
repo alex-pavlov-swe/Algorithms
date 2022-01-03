@@ -2,17 +2,17 @@ var subsetsWithDup = function(nums) {
     var combinations = [];
     nums.sort((a, b) => a - b);
 
-    var dfs = function(nums, path){
+    var backtrack = function(nums, path){
         combinations.push([...path]);
         for (var i = 0; i < nums.length; i++){
             if (i === 0 || nums[i] !== nums[i - 1]) {
                 path.push(nums[i]);
-                dfs(nums.slice(i + 1), path);
+                backtrack(nums.slice(i + 1), path);
                 path.pop(nums[i]);
             }
         }
     }
-    dfs(nums, []);
+    backtrack(nums, []);
     return combinations;
 };
 

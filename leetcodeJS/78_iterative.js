@@ -1,8 +1,4 @@
-/**
- * @param {number[]} nums
- * @return {number[][]}
- */
- var subsets = function(nums) {
+var subsets = function(nums) {
     if (nums.length === 0) return [];
 
     var subsets = [];
